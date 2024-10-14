@@ -1,0 +1,27 @@
+.save_btn {
+    color: white;
+    background-color: rgb(99, 31, 116);
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 70px;
+    font-size: smaller;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.save_btn:hover {
+    background-color: rgb(120, 40, 140)
+}
+.week_btn{
+    font-weight: 600;
+}
+.week_btn:hover{
+    background-color: rgb(222, 224, 224) !important;
+    font-weight: 600;
+
+}
+.week_btn_active{
+    background-color: rgb(215, 218, 218) !important;
+    font-weight: 600;
+
+}

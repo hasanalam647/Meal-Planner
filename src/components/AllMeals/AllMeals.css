@@ -1,0 +1,19 @@
+.container_4 {
+    margin-top: 60px;
+    width: 80% !important;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    color: rgb(99, 31, 116);
+}
+
+@media screen and (max-width: 425px) {
+    .container_4 {
+        width: 90% !important;
+    }
+}
