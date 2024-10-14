@@ -9,7 +9,7 @@ import { deleteItemWeek1 } from '../../store/slices/week1saveSlice';
 import { deleteItemWeek2 } from '../../store/slices/week2saveSlice';
 import { deleteItemWeek4 } from '../../store/slices/week4saveSlice';
 import { deleteItemWeek3 } from '../../store/slices/week3saveSlice';
-
+import {recipeAPI} from '../../API'
 const AllMeals = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [modalShow, setModalShow] = useState(false);
@@ -23,7 +23,7 @@ const AllMeals = () => {
   const week2 = useSelector((state) => { return state.week2save })
   const week3 = useSelector((state) => { return state.week3save })
   const week4 = useSelector((state) => { return state.week4save })
-  const url = "https://dummyjson.com/recipes";
+  const url = recipeAPI;
 
   const getData = async () => {
     await fetch(url)
